@@ -1,0 +1,19 @@
+{
+  "app_name": "Personal Agent",
+  "version": "1.0.0",
+  "environment": "development",
+  "ipc": {
+    "pipe_name": "\\\\.\\pipe\\personal_agent_ipc",
+    "timeout_seconds": 5.0,
+    "auth_key": "personal_agent_local_v1"
+  },
+  "storage": {
+    "db_path": "data/agent.db",
+    "wal_mode": true
+  },
+  "logging": {
+    "log_level": "INFO",
+    "service_log_path": "logs/agent_service.log",
+    "desktop_log_path": "logs/agent_desktop.log"
+  }
+}

@@ -12,6 +12,11 @@ ENV/
 # Logs (keep directory with .gitkeep if needed)
 logs/*.log
 
+# Local SQLite databases
+data/*.db
+data/*.db-wal
+data/*.db-shm
+
 # IDE & Editor
 .vscode/
 .idea/
